@@ -146,7 +146,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "./images/logo.png";
 import "./Contact.css";
-
+import { Link } from "react-router-dom";
 const API_URL = "http://localhost:5000/api";
 
 const Contact = () => {
