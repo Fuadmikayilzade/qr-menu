@@ -1,0 +1,215 @@
+
+
+.contact {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-header {
+  margin-bottom: 40px;
+}
+
+.logo1 {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.contact-header h1 {
+  font-size: 2.5rem;
+  color: #e63946;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.contact-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  animation: slideIn 1s ease-in-out;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  background-color: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #d62828;
+}
+
+.contact-footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(230, 57, 70, 0.9); /* Xidmətlər bölməsinin qırmızı rənginə uyğun */
+  color: #fff; /* Ağ rəng yazılar üçün */
+  text-align: center;
+  border-top: 2px solid #d62828; /* Dəqiq vurğulama üçün daha tünd rəng */
+}
+
+.contact-footer h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ffebeb; /* Açıq ağ rəng */
+}
+
+.contact-footer p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact-footer a {
+  color: #ffdde0; /* Açıq pastel rəng */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-footer a:hover {
+  color: #ffe3e3; /* Hover zamanı daha açıq rəng */
+}
+
+.contact-footer p:last-child {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #ffcccc;
+}
+
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.icon {
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.icon .tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  bottom: 60px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.icon:hover .tooltip {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.prompt-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.prompt-message.success {
+  background-color: #4caf50;
+}
+
+.prompt-message.error {
+  background-color: #f44336;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.prompt-message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.prompt-message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.prompt-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.submit-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

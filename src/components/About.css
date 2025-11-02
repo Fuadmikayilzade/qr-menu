@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(120deg, #fff, #f7f7f7);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-header {
+    text-align: center;
+    background: #e63946;
+    padding: 20px 0;
+    color: #fff;
+    animation: fadeInDown 1.5s ease;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .about-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro h2,
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #e63946;
+  }
+  
+  .intro p,
+  .cta p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .values {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    animation: fadeIn 2s ease;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background: #f2f2f2;
+  }
+  
+  .card h3 {
+    color: #e63946;
+    margin-bottom: 10px;
+  }
+  
+  .button1 {
+    display: inline-block;
+    background: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .button1:hover {
+    background: #d62828;
+    transform: scale(1.1);
+  }
+  
+  .footer1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+@media screen and (max-width: 570px) {
+  .values {
+    flex-direction: column;
+    display: block;
+  }
+  .card{
+    margin-top: 20px;
+  }
+}

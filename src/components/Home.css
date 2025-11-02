@@ -1,0 +1,145 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(120deg, #f7f7f7, #f2f2f2);
+  color: #333;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Background styling */
+.background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(Online-Menu-QR-Code-Malaysia.jpg); /* Şəkil yolunu dəyişin */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Ağ rəngin şeffaflığı */
+  z-index: 1; /* Arxa planda qalması üçün */
+}
+
+/* Home section styles */
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; /* Tam hündürlük */
+  position: relative; /* Başqa elementlərin üstündə durması üçün */
+  z-index: 2; /* contentin üstündəki sırası */
+}
+
+/* Header styles */
+.header {
+  margin-bottom: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.header .logo1 {
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 200px;
+  height: 150px;
+}
+
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  animation: slideDown 1.5s ease-in-out;
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
+/* Services section styles */
+.services {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #e63946;
+}
+
+.services p {
+  font-size: 1.1rem;
+  margin: 10px 0 20px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 420px) {
+  .services p {
+    font-size: 1rem;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #e63946;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 25px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d62828;
+  transform: scale(1.1);
+}
+
+/* Footer styles */
+.footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
+  animation: fadeIn 3s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
