@@ -1,14 +1,18 @@
 import React from "react";
 import "./Services.css";
 import logo from "./images/logo.png";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
     <div className="services">
       <header className="services-header">
-      <a href="/">
+      {/* <a href="/">
         <img src={logo} alt="DigiMenu.az Logo" className="logo" />
-      </a>  
+      </a>   */}
+      <Link to="/">
+         <img src={logo} alt="DigiMenu.az Logo" className="logo" />
+        </Link>
         <h1>Xidmətlərimiz</h1>
       </header>
 
@@ -36,7 +40,10 @@ const Services = () => {
           <p>
             Xidmətlərimizdən faydalanmaq və biznesinizin müştəri təcrübəsini artırmaq üçün indi bizə qoşulun!
           </p>
-          <a href="/contact" className="button2">Əlaqə saxlayın</a>
+          <Link to="/contact" className="button2">
+            Əlaqə saxlayın
+          </Link>
+          {/* <a href="/contact" className="button2">Əlaqə saxlayın</a> */}
         </section>
       </main>
 

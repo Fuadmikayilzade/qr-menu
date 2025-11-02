@@ -1,14 +1,18 @@
 import React from "react";
 import "./About.css";
 import logo from "./images/logo.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <div className="about">
       <header className="about-header">
-      <a href="/">
+      {/* <a href="/">
         <img src={logo} alt="DigiMenu.az Logo" className="logo" />
-      </a>
+      </a> */}
+      <Link to="/">
+      <img src={logo} alt="DigiMenu.az Logo" className="logo" />
+       </Link>
         <h1>Haqqımızda</h1>
       </header>
 
@@ -39,7 +43,10 @@ const About = () => {
         <section className="cta">
           <h2>Sizin üçün necə kömək edə bilərik?</h2>
           <p>Bizim xidmətlərimiz haqqında daha ətraflı öyrənmək və əməkdaşlıq etmək üçün bizimlə əlaqə saxlayın!</p>
-          <a href="/contact" className="button1">Əlaqə</a>
+          {/* <a href="/contact" className="button1">Əlaqə</a> */}
+          <Link to="/contact" className="button1">
+            Əlaqə
+          </Link>
         </section>
       </main>
 

@@ -252,9 +252,12 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-header">
-        <a href="/">
+        {/* <a href="/">
           <img src={logo} alt="DigiMenu.az Logo" className="logo" />
-        </a>
+        </a> */}
+        <Link to="/">
+            <img src={logo} alt="DigiMenu.az Logo" className="logo" />
+          </Link>
         <h1>Bizimlə Əlaqə</h1>
         <h2>Suallarınızı bizə göndərin</h2>
         <p>Hər hansı sualınız və ya təklifiniz varsa, bizimlə əlaqə saxlamaqdan çəkinməyin.</p>
