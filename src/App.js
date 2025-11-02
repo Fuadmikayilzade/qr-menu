@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-    <Router>
+    <Router basename="/qr-menu">
       <Luxbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
