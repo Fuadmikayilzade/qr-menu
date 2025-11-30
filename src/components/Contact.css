@@ -18,7 +18,7 @@
 
 .contact-header h1 {
   font-size: 2.5rem;
-  color: #e63946;
+  color: rgb(21,30,89);
   animation: fadeInDown 1s ease-in-out;
 }
 
@@ -62,7 +62,7 @@ textarea {
 }
 
 .submit-button {
-  background-color: #e63946;
+  background-color: rgb(21,30,89);
   color: white;
   padding: 10px 20px;
   border: none;
@@ -71,16 +71,16 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #d62828;
+  background-color: rgb(21,30,89);
 }
 
 .contact-footer {
   margin-top: 40px;
   padding: 20px;
-  background-color: rgba(230, 57, 70, 0.9); /* Xidmətlər bölməsinin qırmızı rənginə uyğun */
+  background-color: rgb(21,30,89); /* Xidmətlər bölməsinin qırmızı rənginə uyğun */
   color: #fff; /* Ağ rəng yazılar üçün */
   text-align: center;
-  border-top: 2px solid #d62828; /* Dəqiq vurğulama üçün daha tünd rəng */
+  border-top: 2px solid rgb(21,30,89); /* Dəqiq vurğulama üçün daha tünd rəng */
 }
 
 .contact-footer h2 {

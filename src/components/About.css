@@ -13,7 +13,7 @@
   
   .about-header {
     text-align: center;
-    background: #e63946;
+    background: rgb(21,30,89);
     padding: 20px 0;
     color: #fff;
     animation: fadeInDown 1.5s ease;
@@ -22,6 +22,7 @@
   .logo {
     width: 120px;
     margin-bottom: 10px;
+    border-radius: 10px;
   }
   
   .about-header h1 {
@@ -39,7 +40,7 @@
     font-size: 2rem;
     margin-bottom: 10px;
     text-align: center;
-    color: #e63946;
+    color: rgb(21,30,89);
   }
   
   .intro p,
@@ -72,13 +73,13 @@
   }
   
   .card h3 {
-    color: #e63946;
+    color: rgb(21,30,89);
     margin-bottom: 10px;
   }
   
   .button1 {
     display: inline-block;
-    background: #e63946;
+    background: rgb(21,30,89);
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -87,7 +88,7 @@
   }
   
   .button1:hover {
-    background: #d62828;
+    background:rgb(21,30,89);
     transform: scale(1.1);
   }
   

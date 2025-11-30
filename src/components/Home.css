@@ -60,6 +60,7 @@ body {
   cursor: pointer;
   width: 200px;
   height: 150px;
+  border-radius: 20px;
 }
 
 
@@ -83,7 +84,7 @@ body {
 .services h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #e63946;
+  color: rgb(21,30,89);
 }
 
 .services p {
@@ -101,7 +102,7 @@ body {
 .button {
   display: inline-block;
   padding: 12px 25px;
-  background-color: #e63946;
+  background-color: rgb(21,30,89);
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
@@ -111,7 +112,7 @@ body {
 }
 
 .button:hover {
-  background-color: #d62828;
+  background-color: rgb(21,30,89);
   transform: scale(1.1);
 }
 

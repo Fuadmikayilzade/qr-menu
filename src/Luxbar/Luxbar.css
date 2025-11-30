@@ -104,7 +104,7 @@
     background-color: white; /* Başlanğıc arxa fon rəngi */
     border: none;
     border-radius: 100%;
-    color: #e63946;
+    color: rgb(21,30,89);
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.1s ease;
@@ -145,7 +145,7 @@
   
   .transparent {
     background-color: transparent;
-    color: #e63946;
+    color: rgb(21,30,89);
   }
   
   .icon1 {
@@ -193,7 +193,7 @@
   .text10 {
     width: 200px;
     height: 40px;
-    color: #e63946;
+    color: rgb(21,30,89);
     list-style: none;
     font-size: 23px;
     text-align: center;
@@ -204,7 +204,7 @@
   
   .text10:hover {
     border-radius: 50px;
-    background-color: #e63946;
+    background-color:rgb(21,30,89);
     color: white;
   }
   
