@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/qr-menu/static/css/main.858d9a74.css",
-    "main.js": "/qr-menu/static/js/main.d0c6e219.js",
+    "main.css": "/qr-menu/static/css/main.ec9cf811.css",
+    "main.js": "/qr-menu/static/js/main.17ad07dc.js",
     "static/media/Online-Menu-QR-Code-Malaysia.jpg": "/qr-menu/static/media/Online-Menu-QR-Code-Malaysia.168f14a618820258f8f2.jpg",
-    "static/media/logo.png": "/qr-menu/static/media/logo.085fc60d85ddb78f113a.png",
+    "static/media/logo.png": "/qr-menu/static/media/logo.65ab96e710567598ea29.png",
     "index.html": "/qr-menu/index.html",
-    "main.858d9a74.css.map": "/qr-menu/static/css/main.858d9a74.css.map",
-    "main.d0c6e219.js.map": "/qr-menu/static/js/main.d0c6e219.js.map"
+    "main.ec9cf811.css.map": "/qr-menu/static/css/main.ec9cf811.css.map",
+    "main.17ad07dc.js.map": "/qr-menu/static/js/main.17ad07dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.858d9a74.css",
-    "static/js/main.d0c6e219.js"
+    "static/css/main.ec9cf811.css",
+    "static/js/main.17ad07dc.js"
   ]
 }
