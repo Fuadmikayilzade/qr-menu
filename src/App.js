@@ -45,10 +45,14 @@ import Social from "./social media/social";
 
 import "./App.css";
 
+// 🔹 Environmentə görə basename təyini
+const basename =
+  window.location.hostname.includes("github.io") ? "/qr-menu" : "/";
+
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={basename}>
         <Luxbar />
 
         <Routes>
@@ -56,8 +60,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-
-          {/* Yanlış route olarsa Home-a yönləndir */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
 
@@ -68,3 +70,4 @@ function App() {
 }
 
 export default App;
+
